@@ -1,81 +1,99 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-5ES54FY4FP');
-</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Implantes e Estética Dental | Dra. Neila Tamashiro</title>
-<p style="max-width:700px;margin:20px auto;font-size:1.15em;">
-Perdeu um ou mais dentes e sente insegurança ao sorrir ou mastigar?
-<br><br>
-Os <strong>implantes dentários</strong> devolvem conforto, estética e confiança,
-com um tratamento seguro, planejado e realizado por especialista.
-<br><br>
-Aqui você recebe <strong>avaliação personalizada</strong>, tecnologia moderna
-e acompanhamento cuidadoso em todas as etapas do tratamento.
-  <div class="benefits">
-  <div class="box">Implantes com planejamento individual</div>
-  <div class="box">Mais segurança e estabilidade ao mastigar</div>
-  <div class="box">Resultado estético natural</div>
-  <div class="box">Atendimento humanizado e sem pressa</div>
-</div>
+<title>Implantes Dentários | Dra. Neila Tamashiro</title>
 
-</p>
 <style>
 body{
   margin:0;
   font-family:Arial, Helvetica, sans-serif;
   background:#f4f9fb;
+  color:#2e2e2e;
 }
+
 .hero{
   background:linear-gradient(135deg,#6fa8dc,#b39ddb);
   color:white;
-  padding:70px 20px;
+  padding:80px 20px;
   text-align:center;
 }
-.hero h1{font-size:2.4em;margin-bottom:10px;}
-.hero p{font-size:1.2em;}
+
+.hero h1{
+  font-size:2.6em;
+  margin-bottom:15px;
+}
+
+.hero p{
+  max-width:720px;
+  margin:0 auto;
+  font-size:1.2em;
+  line-height:1.6;
+}
 
 .section{
-  max-width:900px;
+  max-width:1000px;
   margin:auto;
-  padding:50px 20px;
+  padding:60px 20px;
   text-align:center;
 }
 
 .benefits{
+  margin-top:40px;
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-  gap:20px;
+  gap:25px;
 }
 
 .box{
   background:white;
-  padding:25px;
+  padding:30px 20px;
   border-radius:18px;
   box-shadow:0 6px 18px rgba(0,0,0,.1);
-  border-top:5px solid #7fcfc4;
+  border-top:6px solid #7fcfc4;
+  font-size:1.05em;
 }
 
 .cta{
-  margin-top:40px;
+  margin-top:60px;
 }
 
 .cta a{
   background:#7fcfc4;
   color:white;
-  padding:18px 40px;
+  padding:20px 46px;
   border-radius:50px;
   text-decoration:none;
-  font-size:1.2em;
+  font-size:1.25em;
   font-weight:bold;
+  display:inline-block;
+}
+
+.cta a:hover{
+  opacity:.9;
+}
+
+/* WhatsApp flutuante */
+.whatsapp-float{
+  position:fixed;
+  bottom:25px;
+  right:25px;
+  background:#25D366;
+  color:white;
+  width:60px;
+  height:60px;
+  border-radius:50%;
+  text-align:center;
+  font-size:30px;
+  line-height:60px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.3);
+  z-index:1000;
+  text-decoration:none;
+}
+
+@media(max-width:768px){
+  .hero h1{font-size:2.1em;}
 }
 </style>
 </head>
@@ -83,24 +101,42 @@ body{
 <body>
 
 <div class="hero">
-  <h1>Implantes e Estética Dental</h1>
-  <p>Recupere seu sorriso com segurança e conforto</p>
+  <h1>Implantes Dentários</h1>
+  <p>
+    Recupera a segurança ao sorrir e mastigar com um tratamento moderno,
+    seguro e planejado por especialista.
+  </p>
 </div>
 
 <div class="section">
+  <p style="max-width:760px;margin:auto;font-size:1.15em;line-height:1.7;">
+    Perdeu um ou mais dentes e sente insegurança no dia a dia?
+    Os <strong>implantes dentários</strong> devolvem função, estética
+    e confiança com resultados duradouros e naturais.
+    <br><br>
+    Aqui você recebe <strong>avaliação personalizada</strong>,
+    tecnologia moderna e acompanhamento cuidadoso em todas as etapas.
+  </p>
+
   <div class="benefits">
-    <div class="box">Atendimento humanizado</div>
-    <div class="box">Especialista em implantes</div>
-    <div class="box">Tecnologia moderna</div>
-    <div class="box">Localização fácil em SP</div>
+    <div class="box">Implantes com planejamento individual</div>
+    <div class="box">Mais conforto e estabilidade ao mastigar</div>
+    <div class="box">Resultado estético natural</div>
+    <div class="box">Atendimento humanizado e sem pressa</div>
   </div>
 
   <div class="cta">
     <a href="https://wa.me/5511999690805" target="_blank">
-      Falar no WhatsApp
+      Agendar avaliação pelo WhatsApp
     </a>
   </div>
 </div>
+
+<a href="https://wa.me/5511999690805"
+   target="_blank"
+   class="whatsapp-float">
+  💬
+</a>
 
 </body>
 </html>
